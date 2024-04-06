@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+:root {
+  --font-display: "Outfit", sans-serif;
+}
+img {
+  width: 100%;
+}
+body {
+  background: lightblue;
+  min-height: 100dvh;
+  display: grid;
+  align-items: center;
+}
+.card {
+  background: white;
+  width: clamp(320px, 85%, 330px);
+  margin-inline: auto;
+  padding: 16px 16px 44px;
+  text-align: center;
+  border-radius: 1rem;
+}
+.qr-wrapper {
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+.caption {
+  margin: 30px auto 20px;
+  max-width: 22ch;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: var(--font-display);
+}
+.description {
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: var(--font-display);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}
