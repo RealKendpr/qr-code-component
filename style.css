@@ -13,6 +13,11 @@
   --neutral-500: hsl(220, 15%, 55%);
   --neutral-900: hsl(218, 44%, 22%);
 }
+.test {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 img {
   width: 100%;
 }
