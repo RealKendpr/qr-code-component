@@ -39,10 +39,11 @@ body {
   pointer-events: none;
 }
 .caption {
-  margin: 30px auto 20px;
+  margin: 25px auto 20px;
   max-width: 23ch;
   color: var(--neutral-900);
   font-size: 1.4rem;
+  line-height: 1.5;
   font-weight: 700;
   font-family: var(--font-display);
 }
@@ -51,6 +52,7 @@ body {
   max-width: 25ch;
   color: var(--neutral-500);
   font-size: var(--text-body);
+  line-height: 1.5;
   font-weight: 400;
   font-family: var(--font-display);
 }
