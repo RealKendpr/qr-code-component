@@ -4,8 +4,8 @@
   },
   "name": "qr-code-component-main",
   "description": "![Design preview for the QR code component coding challenge](./images/desktop-preview.jpg)",
-  "version": "1.0.0",
-  "main": "tailwind.config.js",
+  "version": "2.0.0",
+  "main": "index.js",
   "dependencies": {
     "ansi-regex": "^6.0.1",
     "ansi-styles": "^6.2.1",
