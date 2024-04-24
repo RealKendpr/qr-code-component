@@ -15,31 +15,46 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="output.css" />
     <title>QR code component | Challenge</title>
   </head>
-  <body>
-    <div class="card">
-      <div class="qr-wrapper">
+  <body class="grid items-center min-h-dvh bg-neutral-200">
+    <div
+      class="bg-neutral-100 w-[clamp(300px,_85%,_320px)] mx-auto pt-4 px-4 pb-11 text-center rounded-2xl"
+    >
+      <div class="rounded-xl overflow-hidden">
         <img
+          class="select-none pointer-events-none"
           src="./images/image-qr-code.png"
           alt="Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level"
         />
       </div>
-      <h1 class="caption">
+      <h1
+        class="mt-6 mx-auto mb-5 max-w-[23ch] leading-normal text-2xl text-neutral-900 font-display"
+      >
         <strong> Improve your front-end skills by building projects</strong>
       </h1>
-      <p class="description">
+      <p
+        class="mx-auto max-w-[25ch] text-sm text-neutral-500 font-display leading-normal"
+      >
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
       </p>
     </div>
-    <footer class="attribution">
+    <footer class="text-[11px] text-center">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        class="text-[hsl(228,_45%_,44%)]"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">RealKendpr</a>.
+      >. Coded by
+      <a
+        class="text-[hsl(228,_45%_,44%)]"
+        href="https://frontendmentor.io/RealKendpr"
+        >RealKendpr</a
+      >.
     </footer>
   </body>
 </html>
